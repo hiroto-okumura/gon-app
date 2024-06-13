@@ -2,17 +2,18 @@ import React from "react";
 import "./Sidebar.scss";
 const Sidebar = () => {
   return (
-    <div>
+    <div className="sidebar">
       {/* Sidebar Left */}
-      <div className="sidebar-left"></div>
-      <div className="serverIcon">
-        <img src=".\logo192.png" alt="" />
-      </div>
-      <div className="serverIcon">
-        <img src=".\logo192.png" alt="" />
-      </div>
-      <div className="serverIcon">
-        <img src=".\logo192.png" alt="" />
+      <div className="sidebar-left">
+        <div className="serverIcon">
+          <img src=".\logo192.png" alt="" />
+        </div>
+        <div className="serverIcon">
+          <img src=".\logo192.png" alt="" />
+        </div>
+        <div className="serverIcon">
+          <img src=".\logo192.png" alt="" />
+        </div>
       </div>
       {/* Sidbar Right */}
       <div className="sidebar-right">
